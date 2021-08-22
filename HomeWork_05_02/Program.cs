@@ -121,8 +121,7 @@ namespace HomeWork_05_02
             // Отбираем уникальные значения
             for (int i = 0; i<str.Length; i++)
             {
-                if (str[i] == intermediate_result) continue;
-                else
+                if (str[i] != intermediate_result)
                 {
                     intermediate_result = str[i];
                     result[count] = intermediate_result;
